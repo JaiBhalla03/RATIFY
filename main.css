@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nanum+Gothic:wght@400;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200;1,400&family=Quicksand:wght@300;400;500;600;700&family=Sen&display=swap');
+.home{
+    height: 90vh;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("./images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+    z-index: -1;
+    display: flex;
+}
+
+.main{
+    font-family: 'Poppins', sans-serif;
+}
+
+.home-inner1{
+    width: 50%;
+    padding: 100px 50px 50px 50px;
+}
+
+.home-inner1 h1{
+    margin-bottom: 50px;
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.home-inner1 p{
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.promotion{
+    padding: 50px;
+    height: 100vh;
+}
+
+.promotion-inner{
+    margin-top: 100px;
+    display: flex;
+}
+
+.promotion-sq{
+    width: 25%;
+    height: 250px;
+    margin: 20px;
+    /* background-color: rgb(112, 112, 224); */
+    /* background-image: url("./images/promo1.jpeg");
+    background-size: cover; */
+    border-radius: 30px;
+    transition: all 0.5s ease;
+}
+
+
+
+.promotion-sq:hover{
+    transition: all 0.5s ease;
+    width: 26%;
+    height: 260px;
+}
+
+.promotion-sq:hover .overlay{
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+
+.promotion h1{
+    font-size: 60px;
+    font-weight: 200;
+    text-align: center;
+    background-color: rgb(250, 243, 243);
+}
+
+.overlay{
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255,255,255,0.1);
+    color: #fff;
+    padding: 20px;
+    transition: all 0.5s ease;
+}
+
+.overlay-button{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    outline: none;
+    height: 40px;
+    border: none;
+    background: #fff;
+}
+
+#promotion1{
+    background-image: url("./images/promo1.jpeg");
+    background-size: cover;
+}
+
+#promotion2{
+    background-image: url("./images/promo2.jpeg");
+    background-size: cover;
+}
+
+#promotion3{
+    background-image: url("./images/promo3.jpeg");
+    background-size: cover;
+}
+
+#promotion4{
+    background-image: url("./images/promo4.jpeg");
+    background-size: cover;
+}
+
+.topsellers{
+    padding: 50px;
+    height: 100vh;
+}
+
+.topsellers h1{
+    font-size: 60px;
+    font-weight: 200;
+    text-align: center;
+    background-color: rgb(250, 243, 243);
+}
+
+.promotion-sq1{
+    width: 25%;
+    height: 250px;
+    margin: 20px;
+    border-radius: 30px;
+    transition: all 0.5s ease;
+}
+
+
+
+.promotion-sq1:hover{
+    transition: all 0.5s ease;
+    width: 26%;
+    height: 260px;
+}
+
+.promotion-sq1:hover .overlay1{
+    opacity: 1;
+    transition: all 0.5s ease;
+
+}
+
+.promotion-sq1:hover{
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(8px);
+}
+
+.overlay1{
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255,255,255,0.4);
+    color: #fff;
+    padding: 20px;
+    transition: all 0.5s ease;
+}
+
+.about{
+    height: 100vh;
+    padding: 50px;
+}
+
+.about h1{
+    font-size: 60px;
+    font-weight: 200;
+    margin-bottom: 40px;
+    background-color: rgb(250, 243, 243);
+}
+
+
+.future{
+    height: 70vh;
+    padding: 50px;
+}
+
+.future h1{
+    font-size: 60px;
+    font-weight: 200;
+    margin-bottom: 40px;
+    background-color: rgb(250, 243, 243);
+}
+
+.future p{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.contact-inner1{
+    display: flex;
+    justify-content: flex-around;
+    padding-left: 20px;
+}
+
+.contact-inner1 div{
+    padding-left: 20px;
+}
+
+.contact{
+    display: flex;
+    justify-content: flex-between;
+    padding-bottom: 20px;
+}
+
+.contact-inner2{
+    margin-left: 1100px;
+}
+
